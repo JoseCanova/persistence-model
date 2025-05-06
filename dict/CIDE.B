@@ -17,7 +17,7 @@
     You should have received a copy of the GNU General Public License
     along with this copy of GCIDE.  If not, see <http://www.gnu.org/licenses/>.
 -->
-
+<dictionary>
 <p><-- p. 109 pr=SA --></p>
 
 <p><centered><point26>B.</point26></centered></p>
@@ -79073,7 +79073,7 @@ the Turks, which name it still retains.</def><br/
 [<source>WordNet 1.5</source>]</p>
 
 <p><-- p. 199 --></p>
-
+</dictionary>
 
 <-- Local variables: -->
 <-- mode: sgml -->
