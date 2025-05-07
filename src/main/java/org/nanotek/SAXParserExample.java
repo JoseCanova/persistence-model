@@ -10,13 +10,12 @@ import java.io.File;
 
 /**
  * AI Generated code from copilot.
- * i neeed a simple code in java to parse a XML file using the SAX parser
  * 
  */
 public class SAXParserExample {
     public static void main(String[] args) {
         try {
-            File xmlFile = new File("example.xml"); // Replace with your XML file path
+            File xmlFile = new File("/home/jose/git/persistence-model/dict/gcide_b.xml"); // Replace with your XML file path
             SAXParserFactory factory = SAXParserFactory.newInstance();
             SAXParser saxParser = factory.newSAXParser();
 
@@ -25,7 +24,7 @@ public class SAXParserExample {
 
                 @Override
                 public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-                    if (qName.equalsIgnoreCase("yourElement")) { // Replace with actual element tag
+                    if (qName.equalsIgnoreCase("ent")) { // Replace with actual element tag
                         isTargetElement = true;
                     }
                 }
@@ -39,7 +38,7 @@ public class SAXParserExample {
 
                 @Override
                 public void endElement(String uri, String localName, String qName) throws SAXException {
-                    if (qName.equalsIgnoreCase("yourElement")) {
+                    if (qName.equalsIgnoreCase("ent")) {
                         isTargetElement = false;
                     }
                 }
