@@ -4,4 +4,40 @@
   <artifactId>persistence-model</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>persistence model definitions and project for nanotek jpa plugin</name>
+  
+  <properties>
+  		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>22</java.version>
+        <junit.version>5.11.4</junit.version>
+        <fasterxml.version>2.17.2</fasterxml.version>
+   </properties>
+  
+  <dependencies>
+	 <!-- <dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>${fasterxml.version}</version>
+	  </dependency>
+	  <dependency>
+		<groupId>com.fasterxml.jackson.dataformat</groupId>
+		<artifactId>jackson-dataformat-xml</artifactId>
+		<version>${fasterxml.version}</version>
+	   </dependency>-->
+  </dependencies>
+  
+  <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.14.0</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <compilerArgument>-XDignore.symbol.file</compilerArgument>
+                    <forceJavacCompilerUse>true</forceJavacCompilerUse>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+  
 </project>
