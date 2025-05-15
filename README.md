@@ -1,3 +1,2 @@
-##### This repository will be intended to analyze real world entities model, starting first with "persons model", 
-###### Person (which means real persons) present a complexity since from the definition of persons name , date of birth and other data that are related to 
-###### individual definitions. [personal name](https://en.wikipedia.org/wiki/Personal_name)
+##### This repository will be intended to analyze real world entities model, starting first with a simple analysis of the "gcide xml model" in an attempt to convert it to a relational defined model, excluding "redundandy of information of the xml model". 
+
